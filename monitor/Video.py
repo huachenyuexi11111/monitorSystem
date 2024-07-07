@@ -45,5 +45,8 @@ class Video(QThread):
             QThread.usleep(1000000)
 
     def stop(self):
+        '''
+        线程停止方式
+        '''
         self.running = False
         self.wait()
