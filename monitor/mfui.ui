@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1089</width>
+    <height>663</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>200</y>
+     <width>1021</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>180</y>
+     <width>41</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+
+border-radius: 25px;
+	background-color: rgb(255, 255, 255);
+
+
+}</string>
+   </property>
+   <property name="text">
+    <string>东向</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>180</y>
+     <width>41</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+border-radius: 25px;
+	background-color: rgb(255, 255, 255);
+
+}</string>
+   </property>
+   <property name="text">
+    <string>南向</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>570</y>
+     <width>341</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>当前车流量：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string>当前状况：</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLabel" name="label_8">
+      <property name="font">
+       <font>
+        <family>幼圆</family>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLabel" name="label_9">
+      <property name="font">
+       <font>
+        <family>幼圆</family>
+        <pointsize>13</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>畅通</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>50</y>
+     <width>191</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>黑体</family>
+     <pointsize>15</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>车流量监控系统</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1091</width>
+     <height>661</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>890</x>
+     <y>550</y>
+     <width>160</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="font">
+       <font>
+        <family>幼圆</family>
+        <pointsize>-1</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+
+
+	
+	
+
+	
+	background-color: qradialgradient(spread:reflect, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0.0696517 rgba(91, 102, 65, 0), stop:0.363184 rgba(80, 80, 80, 80), stop:0.587065 rgba(130, 130, 130, 156), stop:0.616915 rgba(255, 255, 255, 80), stop:0.686567 rgba(255, 255, 255, 80), stop:1 rgba(255, 255, 255, 0));
+	
+	
+	
+ /* 设置背景颜色 */ 
+	
+ /* 设置边框颜色和厚度 */ border-radius: 20px; /* 设置圆角半径，数值可根据按钮大小调整 */ padding: 5px 10px; /* 设置内边距 */ 
+color: black; /* 设置文本颜色 */ 
+font-size: 14px; /* 设置字体大小 */ }
+
+
+
+QPushButton:hover {  
+	
+	background-color: qradialgradient(spread:reflect, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0.0696517 rgba(0, 0, 0, 206), stop:0.363184 rgba(11, 40, 79, 80), stop:0.616915 rgba(49, 91, 255, 80), stop:0.686567 rgba(0, 36, 73, 80), stop:0.810945 rgba(0, 25, 82, 156), stop:1 rgba(255, 255, 255, 0));
+color: black; /* 设置鼠标悬停时的文本颜色 */ 
+box-shadow: 5px 5px 10px rgba(10, 10, 255, 10); /* 设置鼠标悬停时的阴影效果 */ 
+cursor: pointer; /* 设置鼠标悬停时的指针样式 */ } 
+</string>
+      </property>
+      <property name="text">
+       <string>跳转</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="font">
+       <font>
+        <family>幼圆</family>
+        <pointsize>-1</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+
+
+	
+	
+
+	
+	background-color: qradialgradient(spread:reflect, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0.0696517 rgba(91, 102, 65, 0), stop:0.363184 rgba(80, 80, 80, 80), stop:0.587065 rgba(130, 130, 130, 156), stop:0.616915 rgba(255, 255, 255, 80), stop:0.686567 rgba(255, 255, 255, 80), stop:1 rgba(255, 255, 255, 0));
+	
+	
+	
+ /* 设置背景颜色 */ 
+	
+ /* 设置边框颜色和厚度 */ border-radius: 20px; /* 设置圆角半径，数值可根据按钮大小调整 */ padding: 5px 10px; /* 设置内边距 */ 
+color: black; /* 设置文本颜色 */ 
+font-size: 14px; /* 设置字体大小 */ }
+
+
+
+QPushButton:hover {  
+	
+	background-color: qradialgradient(spread:reflect, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0.0696517 rgba(0, 0, 0, 206), stop:0.363184 rgba(11, 40, 79, 80), stop:0.616915 rgba(49, 91, 255, 80), stop:0.686567 rgba(0, 36, 73, 80), stop:0.810945 rgba(0, 25, 82, 156), stop:1 rgba(255, 255, 255, 0));
+color: black; /* 设置鼠标悬停时的文本颜色 */ 
+box-shadow: 5px 5px 10px rgba(10, 10, 255, 10); /* 设置鼠标悬停时的阴影效果 */ 
+cursor: pointer; /* 设置鼠标悬停时的指针样式 */ } 
+</string>
+      </property>
+      <property name="text">
+       <string>返回</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>560</y>
+     <width>171</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>170</y>
+     <width>1021</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>label_10</zorder>
+  <zorder>label_12</zorder>
+  <zorder>label_11</zorder>
+  <zorder>horizontalLayoutWidget</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_4</zorder>
+  <zorder>formLayoutWidget</zorder>
+  <zorder>label_7</zorder>
+  <zorder>verticalLayoutWidget</zorder>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>ReturnChoose()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>976</x>
+     <y>613</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>544</x>
+     <y>331</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>SwitchPeo()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>969</x>
+     <y>569</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>544</x>
+     <y>331</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>ReturnChoose()</slot>
+  <slot>SwitchCar()</slot>
+  <slot>SwitchPeo()</slot>
+ </slots>
+</ui>
